@@ -1,8 +1,8 @@
 from matplotlib.figure import Figure
 from typing import Optional
 from PyNite import FEModel3D
-from eng_module.beams import extract_arrays_all_combos
-from eng_module.load_factors import envelope_min, envelope_max
+from beams import extract_arrays_all_combos
+from load_factors import envelope_min, envelope_max
 
 def plot_enveloped_results(beam_model: FEModel3D, result_type: str, direction: Optional[str] = None, units: Optional[str] = None, load_combo: Optional[str] = None, figsize=(8,3), dpi=200, n_points=1000) -> Figure:
     """
