@@ -1,19 +1,26 @@
-# 🎈 Blank app template
+# package_name
 
-A simple Streamlit app template for you to modify!
+## Installation
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+This package is built with `setuptools`. To install, navigate to the root of the downloaded package (where the pyproject.toml file is) and execute:
 
-### How to run it on your own machine
+`pip install .`
 
-1. Install the requirements
+If you want to have an editable installation (e.g. for development):
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+`pip install . -e`
 
-2. Run the app
+If you are planning on developing this package, it is recommended that you first create a new conda environment. Activate the new environment and install the package into that environment.
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Quick start
+
+```python
+import package_name as pn
+
+pn.my_function() # Returns None
+my_class = pn.MyClass()
+```
+
+## Python version
+
+This package, in its current form, runs on Python versions from 3.7+

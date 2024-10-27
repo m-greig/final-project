@@ -1,0 +1,13 @@
+# The contents of this file will vary depending on whether you use
+# setuptools or a 3rd party library, such as flit.
+# However certain things must be in this file in order for it to work.
+# The setuptools version with the bare minimum configuration is shown.
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "package_name"
+version = "0.1.0"
