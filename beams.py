@@ -2,8 +2,8 @@ import csv
 from typing import Optional
 import math
 from PyNite import FEModel3D
-from eng_module.utils import str_to_int, str_to_float, read_csv_file
-from eng_module.load_factors import nbcc_2020_combos, nbcc_2015_combos, nbcc_2010_combos
+from utils import str_to_int, str_to_float, read_csv_file
+from load_factors import nbcc_2020_combos, nbcc_2015_combos, nbcc_2010_combos
     
 
 def read_beam_file(filename: str) -> str:
